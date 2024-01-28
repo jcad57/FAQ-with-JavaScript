@@ -1,0 +1,103 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --lightPink: hsl(275, 100%, 97%);
+    --grayishPurple: hsl(292, 16%, 49%);
+    --darkPurple: hsl(292, 42%, 14%);
+}
+body {
+    /* // <uniquifier>: Use a uniquifier for the class name
+    // <weight>: Use a value from 100 to 900 */
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+
+  background: url(/assets/images/background-pattern-mobile.svg);
+  background-color: var(--lightPink);
+  background-repeat: no-repeat;
+  min-width: 100vw;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 100svh;
+    width: 90%;
+    max-width: 450px;
+}
+
+.card{
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding: 1.25rem 1.5rem .5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header img{
+    width: 8%;
+    margin: .5rem;
+    margin-right: 1.5rem;
+    margin-left: 0;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h3{
+    text-align: left;
+    max-width: 75%;
+    font-weight: 700;
+    
+}
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 1.25rem 0;
+}
+
+button:hover, button:active{
+    cursor: pointer;
+    color: purple;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+p{  
+    line-height: 1.4rem;
+    padding: .5rem 0 1.5rem 0;
+    
+}
+
+.hidden{
+    transition: 5s ease-in-out;
+    display: none;
+}
+
+@media (min-width: 376px){
+    body{
+    background: url(assets/images/background-pattern-desktop.svg);
+    background-color: var(--lightPink);
+  background-repeat: no-repeat;
+  min-width: 100vw;
+    }
+}
