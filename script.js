@@ -18,40 +18,40 @@ let panel4expanded = false;
 expander1.addEventListener("click", function () {
   panel1.classList.toggle("hidden");
   if (panel1expanded === false) {
-    img1.src = "/assets/images/icon-minus.svg";
+    img1.src = "icon-minus.svg";
     panel1expanded = true;
   } else {
-    img1.src = "/assets/images/icon-plus.svg";
+    img1.src = "icon-plus.svg";
     panel1expanded = false;
   }
 });
 expander2.addEventListener("click", function () {
   panel2.classList.toggle("hidden");
   if (panel2expanded === false) {
-    img2.src = "/assets/images/icon-minus.svg";
+    img2.src = "icon-minus.svg";
     panel2expanded = true;
   } else {
-    img2.src = "/assets/images/icon-plus.svg";
+    img2.src = "icon-plus.svg";
     panel2expanded = false;
   }
 });
 expander3.addEventListener("click", function () {
   panel3.classList.toggle("hidden");
   if (panel3expanded === false) {
-    img3.src = "/assets/images/icon-minus.svg";
+    img3.src = "icon-minus.svg";
     panel3expanded = true;
   } else {
-    img3.src = "/assets/images/icon-plus.svg";
+    img3.src = "icon-plus.svg";
     panel3expanded = false;
   }
 });
 expander4.addEventListener("click", function () {
   panel4.classList.toggle("hidden");
   if (panel4expanded === false) {
-    img4.src = "/assets/images/icon-minus.svg";
+    img4.src = "icon-minus.svg";
     panel4expanded = true;
   } else {
-    img4.src = "/assets/images/icon-plus.svg";
+    img4.src = "icon-plus.svg";
     panel4expanded = false;
   }
 });
