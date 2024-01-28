@@ -97,7 +97,7 @@ p{
     body{
     background: url(background-pattern-desktop.svg);
     background-color: var(--lightPink);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   min-width: 100vw;
     }
 }
