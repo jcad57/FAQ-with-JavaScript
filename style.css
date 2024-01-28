@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   font-style: normal;
 
-  background: url(/assets/images/background-pattern-mobile.svg);
+  background: url(background-pattern-mobile.svg);
   background-color: var(--lightPink);
   background-repeat: no-repeat;
   min-width: 100vw;
@@ -95,7 +95,7 @@ p{
 
 @media (min-width: 376px){
     body{
-    background: url(assets/images/background-pattern-desktop.svg);
+    background: url(background-pattern-desktop.svg);
     background-color: var(--lightPink);
   background-repeat: no-repeat;
   min-width: 100vw;
